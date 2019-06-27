@@ -1,0 +1,23 @@
+Program testeproc2;
+    Const a=2;
+Var 
+    x,y:integer;       
+Procedure p;    
+    Var z: integer;               
+Procedure q;         
+    Var t: integer;          
+Begin (* inicio da q       
+    z:= z - (-100) ; 
+    t:= z*a;          
+    if t > 100 5then5
+        call q 
+    else 
+        writeln(t)          
+    end; (* fim de q*)       
+    begin (* inicio da P*)         
+    z:= x+y*a; 
+        if z> 100 then 
+            call q 
+        else 
+            writeln(z);    
+        end; (* fim da p*)
